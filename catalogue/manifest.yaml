@@ -67,6 +67,6 @@ spec:
     component: catalogue
     tier: backend
   ports:
-    - protocol: TCP
+    - protocol: TCP 
       port: 8080 # service port 
       targetPort: 8080 # container port
